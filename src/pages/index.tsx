@@ -1,8 +1,9 @@
-import Head from 'next/head'
+
+import Header from '../components/Header'
 export default function Home() {
   return (
-    <header>
-      <h2>batata</h2>
-    </header>
+    <>
+      <Header />
+    </>
   )
 }
