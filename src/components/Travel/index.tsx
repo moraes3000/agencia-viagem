@@ -82,11 +82,48 @@ export default function Travel() {
                 onSlideChange={() => console.log('slide change')}
             >
 
-                <SwiperSlide><img src='banner1.jpg' /></SwiperSlide>
+                {/* <SwiperSlide><img src='banner1.jpg' /></SwiperSlide>
                 <SwiperSlide><img src='banner2.jpg' /></SwiperSlide>
                 <SwiperSlide><img src='banner3.jpg' /></SwiperSlide>
-                <SwiperSlide><img src='banner4.jpg' /></SwiperSlide>
+                <SwiperSlide><img src='banner4.jpg' /></SwiperSlide> */}
+                <SwiperSlide>
 
+                    <VStack
+                        backgroundImage="url('banner1.jpg')"
+                        backgroundPosition="center"
+                        backgroundRepeat="no-repeat"
+                        h="335px">
+                        <Heading fontSize="3rem" color='#F5F8FA' mt='6rem' mb='1rem'>Europa</Heading>
+                        <Text fontSize="1.5rem" color='#DADADA' >O Continnente mais antigo </Text>
+                    </VStack>
+
+                </SwiperSlide>
+
+                <SwiperSlide>
+
+                    <VStack
+                        backgroundImage="url('banner2.jpg')"
+                        backgroundPosition="center"
+                        backgroundRepeat="no-repeat"
+                        h="335px">
+                        <Heading fontSize="3rem" color='#F5F8FA' mt='6rem' mb='1rem'>Europa</Heading>
+                        <Text fontSize="1.5rem" color='#DADADA' >O Continnente mais antigo </Text>
+                    </VStack>
+
+                </SwiperSlide>
+
+                <SwiperSlide>
+
+                    <VStack
+                        backgroundImage="url('banner3.jpg')"
+                        backgroundPosition="center"
+                        backgroundRepeat="no-repeat"
+                        h="335px">
+                        <Heading fontSize="3rem" color='#F5F8FA' mt='6rem' mb='1rem'>Europa</Heading>
+                        <Text fontSize="1.5rem" color='#DADADA' >O Continnente mais antigo </Text>
+                    </VStack>
+
+                </SwiperSlide>
             </Swiper>
 
         </>
