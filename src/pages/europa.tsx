@@ -1,5 +1,5 @@
 
-import { VStack, Heading, Text, Box, Flex, Center, Square, Grid, GridItem } from '@chakra-ui/layout'
+import { VStack, Heading, Text, Box, Flex, Center, Square, Grid, GridItem, Spacer, Image } from '@chakra-ui/react'
 import { Container } from 'next/app'
 import React from 'react'
 import Banner from '../components/Banner'
@@ -41,7 +41,26 @@ export default function Home() {
             </Center>
 
 
+
+            <Heading fontSize="3rem" color='#47585B' my={8}>Cidades +100</Heading>
+            <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                <img src='banner1.jpg' />
+                <Flex>
+                    <Box p="4">
+                        <Heading fontSize="1.5rem" color='#47585B' mt=''  >
+                            Londres
+                </Heading>
+                        <Text color='#999999' mt={4}>Reino Unido </Text>
+                    </Box>
+                    <Spacer />
+                    <Box p="4">
+                        <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
+                    </Box>
+                </Flex>
+            </Box>
             
+
+
         </>
     )
 }
