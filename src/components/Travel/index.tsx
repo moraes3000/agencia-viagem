@@ -3,13 +3,14 @@ import { Box, Center, Divider, Grid, GridItem, Heading, Text, VStack } from "@ch
 import SwiperCore, { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import Carousel from "../Carousel";
 // install Swiper modules
 SwiperCore.use([Navigation, Pagination, Scrollbar, A11y]);
 export default function Travel() {
     return (
         <>
             <Center mt='6rem'>
-                <Grid templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)','repeat(5, 1fr)']} p={6} gap={2} w='960px' textAlign='center' justifyContent='center'>
+                <Grid templateColumns={['repeat(2, 1fr)', 'repeat(3, 1fr)', 'repeat(5, 1fr)']} p={6} gap={2} w='960px' textAlign='center' justifyContent='center'>
                     <GridItem >
                         <img src="Nightlife.svg" alt="Logo" />
                     </GridItem>
@@ -51,43 +52,18 @@ export default function Travel() {
             >
 
                 <SwiperSlide>
-
-                    <VStack
-                        backgroundImage="url('banner1.jpg')"
-                        backgroundPosition="center"
-                        backgroundRepeat="no-repeat"
-                        h="335px">
-                        <Heading fontSize="3rem" color='#F5F8FA' mt='6rem' mb='1rem'>Europa</Heading>
-                        <Text fontSize="1.5rem" color='#DADADA' >O Continnente mais antigo </Text>
-                    </VStack>
-
+                    <Carousel banner='banner1.jpg' title='Europa' description='O Continnente mais antigo' />
                 </SwiperSlide>
 
                 <SwiperSlide>
-
-                    <VStack
-                        backgroundImage="url('banner2.jpg')"
-                        backgroundPosition="center"
-                        backgroundRepeat="no-repeat"
-                        h="335px">
-                        <Heading fontSize="3rem" color='#F5F8FA' mt='6rem' mb='1rem'>Europa</Heading>
-                        <Text fontSize="1.5rem" color='#DADADA' >O Continnente mais antigo </Text>
-                    </VStack>
-
+                    <Carousel banner='banner2.jpg' title='Europa2' description='O Continnente mais antigo' />
                 </SwiperSlide>
 
                 <SwiperSlide>
-
-                    <VStack
-                        backgroundImage="url('banner3.jpg')"
-                        backgroundPosition="center"
-                        backgroundRepeat="no-repeat"
-                        h="335px">
-                        <Heading fontSize="3rem" color='#F5F8FA' mt='6rem' mb='1rem'>Europa</Heading>
-                        <Text fontSize="1.5rem" color='#DADADA' >O Continnente mais antigo </Text>
-                    </VStack>
-
+                    <Carousel banner='banner3.jpg' title='Europa3' description='O Continnente mais antigo' />
                 </SwiperSlide>
+
+
             </Swiper>
 
         </>
