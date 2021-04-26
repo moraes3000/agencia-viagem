@@ -4,6 +4,7 @@ import { Container } from 'next/app'
 import React from 'react'
 import Banner from '../components/Banner'
 import Header from '../components/Header'
+import ListItem from '../components/ListCidade/Index'
 import Travel from '../components/Travel'
 export default function Home() {
     return (
@@ -48,100 +49,12 @@ export default function Home() {
                 </Grid>
             </Center>
             <Center>
-                <Grid templateColumns="repeat(4, 1fr)" gap={8} w='960px' textAlign='justify' justifyContent='center'>
-                    <GridItem >
-                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-                            <img src='banner1.jpg' />
-                            <Flex>
-                                <Box p="4">
-                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
-                                        Londres
-                                    </Heading>
-                                    <Text color='#999999' mt={4}>Reino Unido </Text>
-                                </Box>
-                                <Spacer />
-                                <Box p="4">
-                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
-                                </Box>
-                            </Flex>
-                        </Box>
-
-                    </GridItem>
-
-                    <GridItem >
-                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-                            <img src='banner1.jpg' />
-                            <Flex>
-                                <Box p="4">
-                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
-                                        Londres
-                                    </Heading>
-                                    <Text color='#999999' mt={4}>Reino Unido </Text>
-                                </Box>
-                                <Spacer />
-                                <Box p="4">
-                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
-                                </Box>
-                            </Flex>
-                        </Box>
-
-                    </GridItem>
-
-                    <GridItem >
-                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-                            <img src='banner1.jpg' />
-                            <Flex>
-                                <Box p="4">
-                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
-                                        Londres
-                                    </Heading>
-                                    <Text color='#999999' mt={4}>Reino Unido </Text>
-                                </Box>
-                                <Spacer />
-                                <Box p="4">
-                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
-                                </Box>
-                            </Flex>
-                        </Box>
-                    </GridItem>
-
-
-                    <GridItem >
-                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-                            <img src='banner1.jpg' />
-                            <Flex>
-                                <Box p="4">
-                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
-                                        Londres
-                                    </Heading>
-                                    <Text color='#999999' mt={4}>Reino Unido </Text>
-                                </Box>
-                                <Spacer />
-                                <Box p="4">
-                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
-                                </Box>
-                            </Flex>
-                        </Box>
-                    </GridItem>
-
-
-                    <GridItem >
-                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-                            <img src='banner1.jpg' />
-                            <Flex>
-                                <Box p="4">
-                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
-                                        Londres
-                                    </Heading>
-                                    <Text color='#999999' mt={4}>Reino Unido </Text>
-                                </Box>
-                                <Spacer />
-                                <Box p="4">
-                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
-                                </Box>
-                            </Flex>
-                        </Box>
-                    </GridItem>
+                <Grid templateColumns="repeat(4, 1fr)" gap={8} w='960px' textAlign='justify' justifyContent='center' mb={8}>
+                    <ListItem city='Londes' country='Reino Unido' banner='londres.png' imaCountry='uk.png' />
+                    <ListItem city='Paris' country='França' banner='paris.png' imaCountry='uk.png' />
+                    <ListItem city='Roma' country='Italia' banner='roma.png' imaCountry='italy.png' />
+                    <ListItem city='Praga' country='Republica Tcheca' banner='praga.png' imaCountry='rt.png' />
+                    <ListItem city='Amsterdã' country='Holanda' banner='amster.png' imaCountry='holanda.png' />
                 </Grid>
             </Center>
 
