@@ -27,7 +27,7 @@ export default function Travel() {
                 <Divider w='200px' h='7px' colorScheme='#47585B' />
             </Center>
             <Center mt='3rem'>
-                <Text fontSize="3rem" color='#47585B' >
+                <Text fontSize="3rem" color='#47585B' textAlign='center'>
                     Vamos nessa?<br/>Então escolha seu continente
                 </Text>
             </Center>
