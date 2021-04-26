@@ -40,25 +40,111 @@ export default function Home() {
                 </Grid>
             </Center>
 
+            <Center mt='6rem'>
+                <Grid templateColumns="1fr" gap={2} w='960px'>
+                    <GridItem >
+                        <Heading fontSize="3rem" color='#47585B' my={8}>Cidades +100</Heading>
+                    </GridItem>
+                </Grid>
+            </Center>
+            <Center>
+                <Grid templateColumns="repeat(4, 1fr)" gap={8} w='960px' textAlign='justify' justifyContent='center'>
+                    <GridItem >
+                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                            <img src='banner1.jpg' />
+                            <Flex>
+                                <Box p="4">
+                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
+                                        Londres
+                                    </Heading>
+                                    <Text color='#999999' mt={4}>Reino Unido </Text>
+                                </Box>
+                                <Spacer />
+                                <Box p="4">
+                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
+                                </Box>
+                            </Flex>
+                        </Box>
+
+                    </GridItem>
+
+                    <GridItem >
+                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                            <img src='banner1.jpg' />
+                            <Flex>
+                                <Box p="4">
+                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
+                                        Londres
+                                    </Heading>
+                                    <Text color='#999999' mt={4}>Reino Unido </Text>
+                                </Box>
+                                <Spacer />
+                                <Box p="4">
+                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
+                                </Box>
+                            </Flex>
+                        </Box>
+
+                    </GridItem>
+
+                    <GridItem >
+                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                            <img src='banner1.jpg' />
+                            <Flex>
+                                <Box p="4">
+                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
+                                        Londres
+                                    </Heading>
+                                    <Text color='#999999' mt={4}>Reino Unido </Text>
+                                </Box>
+                                <Spacer />
+                                <Box p="4">
+                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
+                                </Box>
+                            </Flex>
+                        </Box>
+                    </GridItem>
 
 
-            <Heading fontSize="3rem" color='#47585B' my={8}>Cidades +100</Heading>
-            <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-                <img src='banner1.jpg' />
-                <Flex>
-                    <Box p="4">
-                        <Heading fontSize="1.5rem" color='#47585B' mt=''  >
-                            Londres
-                </Heading>
-                        <Text color='#999999' mt={4}>Reino Unido </Text>
-                    </Box>
-                    <Spacer />
-                    <Box p="4">
-                        <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
-                    </Box>
-                </Flex>
-            </Box>
-            
+                    <GridItem >
+                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                            <img src='banner1.jpg' />
+                            <Flex>
+                                <Box p="4">
+                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
+                                        Londres
+                                    </Heading>
+                                    <Text color='#999999' mt={4}>Reino Unido </Text>
+                                </Box>
+                                <Spacer />
+                                <Box p="4">
+                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
+                                </Box>
+                            </Flex>
+                        </Box>
+                    </GridItem>
+
+
+                    <GridItem >
+                        <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
+                            <img src='banner1.jpg' />
+                            <Flex>
+                                <Box p="4">
+                                    <Heading fontSize="1.5rem" color='#47585B' mt=''  >
+                                        Londres
+                                    </Heading>
+                                    <Text color='#999999' mt={4}>Reino Unido </Text>
+                                </Box>
+                                <Spacer />
+                                <Box p="4">
+                                    <Image boxSize="30px" borderRadius="full" mt={4} src='banner1.jpg' />
+                                </Box>
+                            </Flex>
+                        </Box>
+                    </GridItem>
+                </Grid>
+            </Center>
+
 
 
         </>
