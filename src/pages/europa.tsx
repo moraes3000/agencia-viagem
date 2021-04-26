@@ -15,12 +15,12 @@ export default function Home() {
                 backgroundPosition="center"
                 backgroundRepeat="no-repeat"
                 h="335px">
-                <Heading fontSize="3rem" color='#F5F8FA' mt='6rem' mb='1rem'>Europa</Heading>
+                <Heading fontSize="3rem" color='#F5F8FA' mt='8  rem' mb='1rem'>Europa</Heading>
             </VStack>
 
 
             <Center mt='6rem'>
-                <Grid templateColumns="repeat(2, 1fr)" gap={2} w='960px' textAlign='justify' justifyContent='center'>
+                <Grid templateColumns={['repeat(1, 1fr)','repeat(2, 1fr)']} gap={2} w='960px' textAlign='justify' justifyContent='center' p={6}>
                     <GridItem >
                         <Text>A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste</Text>
                     </GridItem>
