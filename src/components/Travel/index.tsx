@@ -9,7 +9,7 @@ export default function Travel() {
     return (
         <>
             <Center mt='6rem'>
-                <Grid templateColumns="repeat(5, 1fr)" gap={2} w='960px' textAlign='center' justifyContent='center'>
+                <Grid templateColumns={['repeat(2, 1fr)','repeat(3, 1fr)','repeat(5, 1fr)']} p={6} gap={2} w='960px' textAlign='center' justifyContent='center'>
                     <GridItem >
                         <img src="Nightlife.svg" alt="Logo" />
                     </GridItem>
