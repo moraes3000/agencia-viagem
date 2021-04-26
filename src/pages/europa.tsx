@@ -41,7 +41,7 @@ export default function Home() {
                 </Grid>
             </Center>
 
-            <Center mt='6rem'>
+            <Center mt='6rem' p={6}>
                 <Grid templateColumns="1fr" gap={2} w='960px'>
                     <GridItem >
                         <Heading fontSize="3rem" color='#47585B' my={8}>Cidades +100</Heading>
@@ -49,7 +49,7 @@ export default function Home() {
                 </Grid>
             </Center>
             <Center>
-                <Grid templateColumns="repeat(4, 1fr)" gap={8} w='960px' textAlign='justify' justifyContent='center' mb={8}>
+                <Grid  templateColumns={['repeat(1, 1fr)','repeat(2, 1fr)', 'repeat(4, 1fr)']} gap={8} w='960px' mb={8}>
                     <ListItem city='Londes' country='Reino Unido' banner='londres.png' imaCountry='uk.png' />
                     <ListItem city='Paris' country='França' banner='paris.png' imaCountry='uk.png' />
                     <ListItem city='Roma' country='Italia' banner='roma.png' imaCountry='italy.png' />

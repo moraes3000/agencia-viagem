@@ -7,12 +7,12 @@ interface ListProps {
     banner: string;
 
 }
-export default function ListItem({ city,country, imaCountry, banner }: ListProps) {
+export default function ListItem({ city, country, imaCountry, banner }: ListProps) {
     return (
 
-        <GridItem >
+        <GridItem p={5}>
             <Box maxW="sm" borderWidth="1px" borderRadius="lg" overflow="hidden" >
-                <img src={banner} />
+                <Image src={banner} w='100%' />
                 <Flex>
                     <Box p="4">
                         <Heading fontSize="1.5rem" color='#47585B' mt=''  >
